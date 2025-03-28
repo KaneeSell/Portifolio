@@ -1,0 +1,29 @@
+/* Pode estar mudando tamanho da barra lateral*/
+.MenuLateralIcon{
+    width: 48px;
+}
+.menuLateralTexto{
+    left: 48px;
+    width: 0px;
+}
+.MenuLateralIcon:hover ~ .menuLateralTexto{
+    width: 160px;
+}
+.menuLateralTexto:hover{
+    width: 160px;
+}
+@media(max-width: 470px){
+    .MenuLateralIcon{
+        width: 48px;
+        padding-bottom: 80px;
+    }
+    .menuLateralTexto{
+        width: 0px;
+    }
+    .MenuLateralIcon:hover ~ .menuLateralTexto{
+        width: 100%;
+    }
+    .menuLateralTexto:hover{
+        width: 0px;
+    }
+}
