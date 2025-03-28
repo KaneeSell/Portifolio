@@ -23,7 +23,7 @@ export default function MenuLateral(props: MenuLateralProps){
                 bg-gray-300 text-purple-700 left-0 top-0 ${styles.MenuLateralIcon}
                 `}>
                     <div className="flex flex-col gap-4 w-full items-center">
-                        <img src="./public/kanee.ico" 
+                        <img src="./kanee.ico" 
                         alt="KaneeIcon" className="hover:scale-110 cursor-pointer duration-200"
                         width={'40px'}/>
                         <hr className="w-full"/>
