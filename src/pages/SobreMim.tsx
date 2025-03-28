@@ -18,13 +18,19 @@ export default function SobreMim(){
                                 Minha Jornada
                             </span>
                             <span className={`max-w-100 max-h-80 px-2 overflow-y-scroll dark:text-gray-100 font-medium scrollbar-personalizada`}>
-                            Tenho 25 anos, nasci em Joinville SC, moro em Jaraguá do Sul SC. 
-                            Meu passa tempo estudar e ver vídeos sobre tecnologia. 
-                            Aguardando uma oportunidade e estar agregando ao time minha experiência e conhecimento em tecnologia e programação.
-                            Estudo desde 2012 sobre computação, trabalhei em 2018 em manutenção de computadores, Iniciei em 2023 Curso Técnico em Desenvolvimento SENAI-SC. 
-                            Parei em meados de 2024, pois queria focar em algo mais direto como cursos, que me entregam o conteúdo muito mais direcionado do que os cursos técnicos e faculdades do momento. 
-                            Atuei como Suporte Técnico, Aonde meus desafios do dia a dia era Utilizar o banco de dados com alguns códigos SQL, configurações de rede, instalação de impressora fiscal e não fiscal, implementação do sistema, treinamento, teste do sistema, abertura de chamado para programação(helpdesk), auxilio em documentos fiscais. 
-                            Esperando uma oportunidade de por em pratica minhas habilidades e conhecimento em programação e tecnologia para ajudar a equipe.
+                            Tenho 25 anos, nasci em Joinville (SC) e atualmente moro em Jaraguá do Sul (SC).
+                            Meu passatempo é estudar e assistir a vídeos sobre tecnologia. Estou em busca de 
+                            uma oportunidade para agregar minha experiência e conhecimento em tecnologia e 
+                            programação a um time. Estudo computação desde 2012 e, em 2018, trabalhei com 
+                            manutenção de computadores. Em 2023, iniciei o Curso Técnico em Desenvolvimento 
+                            no SENAI-SC, mas optei por interrompê-lo em 2024 para focar em cursos mais diretos, 
+                            que oferecem um aprendizado mais específico e prático do que os cursos técnicos e 
+                            faculdades atuais. Atuei como Suporte Técnico, onde meus desafios diários incluíam 
+                            o uso de banco de dados com SQL, configurações de rede, instalação de impressoras 
+                            fiscais e não fiscais, implementação e testes de sistemas, treinamentos, abertura 
+                            de chamados para programação (helpdesk) e auxílio em documentos fiscais. Estou 
+                            pronto para aplicar minhas habilidades e conhecimentos em programação e tecnologia 
+                            para contribuir com uma equipe.
                             </span>
                         </div>
                         <div className={cards}>
@@ -32,9 +38,12 @@ export default function SobreMim(){
                                 Meus Estudos
                             </span>
                             <span className="max-w-100 max-h-80 px-2 dark:text-gray-100 font-medium overflow-y-scroll scrollbar-personalizada">
-                            Tenho conhecimento solido com projetos em JS, TS, HTML, CSS, SASS, Bootstrap, NodeJs, Gulp, Webpack, JQuary, ElectronJs, Git e Github, SQL, Vite, React, Next. 
-                            E estudando atualmente. Mesmo atingindo a formação dos cursos que desejo não quero parar de estudar, pretendo o quanto antes iniciar graduação e pós e assim por diante. 
-                            Pois como sempre tem coisas novas, quero sempre me atualizar aprender mais.
+                            Tenho sólido conhecimento em projetos com JS, TS, HTML, CSS, SASS, Bootstrap, TailwindCSS, 
+                            Node.js, Gulp, Webpack, jQuery, Electron.js, Git, GitHub, SQL, Vite, React.js e Next.js.
+                            Atualmente, sigo estudando e, mesmo após concluir os cursos que desejo, não pretendo parar. 
+                            Meu objetivo é iniciar uma graduação o quanto antes, seguida de uma pós-graduação e continuar 
+                            sempre aprendendo. Como a tecnologia está em constante evolução, quero me manter atualizado e 
+                            expandir meus conhecimentos continuamente.
                             </span>
                             
                         </div>
