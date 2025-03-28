@@ -10,7 +10,7 @@ export default function Contato(){
         <div>
             <MenuLateral localAtivo="contato">
                 <Header titulo="Contato" subtitulo="Vamos conversar? Entre em contato!"/>
-                <LayoutConteudo titulo="Contatos:" marginTop="40">
+                <LayoutConteudo titulo="Contatos:">
                     <div className="flex flex-row items-center gap-5">
                         <a href="https://github.com/KaneeSell"
                         target="_blank"

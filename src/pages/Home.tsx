@@ -16,7 +16,7 @@ export default function Home(){
         <div>
             <MenuLateral localAtivo="inicio">
                 <Header titulo="Início" subtitulo="Seja bem vindo ao meu Portifólio!"/>
-                <LayoutConteudo titulo="Tenologias que uso:" marginTop="40">
+                <LayoutConteudo titulo="Tenologias que uso:">
                     <div className="flex flex-row flex-wrap items-center justify-center gap-2">
                         <div className={cards}>
                             <span className={tituloCard}

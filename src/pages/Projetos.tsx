@@ -32,7 +32,7 @@ export default function Projetos(){
                             </div>
                             <div className={cardFooter}>
                                 <a className={cardBtn}
-                                href="" target="_blank">Ir Para Projeto</a>
+                                href="https://kaneesell.github.io/Agenda-2.0" target="_blank">Ir Para Projeto</a>
                             </div>
                         </div>
                     </div>
