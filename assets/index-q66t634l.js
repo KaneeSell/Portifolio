@@ -62,7 +62,7 @@ Please change the parent <Route path="${X}"> to <Route path="${X==="/"?"*":`${X}
                 dark:bg-gray-900 h-screen py-4
                 flex flex-col justify-between items-center
                 bg-gray-300 text-purple-700 left-0 top-0 ${w1.MenuLateralIcon}
-                `,children:[z.jsxs("div",{className:"flex flex-col gap-4 w-full items-center",children:[z.jsx("img",{src:"./public/kanee.ico",alt:"KaneeIcon",className:"hover:scale-110 cursor-pointer duration-200",width:"40px"}),z.jsx("hr",{className:"w-full"}),z.jsx(gm,{onClick:()=>s("/"),className:`w-full ${i.localAtivo==="inicio"?`
+                `,children:[z.jsxs("div",{className:"flex flex-col gap-4 w-full items-center",children:[z.jsx("img",{src:"./kanee.ico",alt:"KaneeIcon",className:"hover:scale-110 cursor-pointer duration-200",width:"40px"}),z.jsx("hr",{className:"w-full"}),z.jsx(gm,{onClick:()=>s("/"),className:`w-full ${i.localAtivo==="inicio"?`
                         bg-gray-400 dark:bg-blue-950 cursor-default
                         `:`
                         hover:text-gray-900 dark:hover:text-white cursor-pointer`}
