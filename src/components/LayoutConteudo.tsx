@@ -1,18 +1,16 @@
 interface LayoutConteudoProps{
     titulo: string
     subtitulo?: string
-    marginTop?: string
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     children: any
 }
 export default function LayoutConteudo(props: LayoutConteudoProps) {
+    const card = `w-full  flex flex-col items-center my-20`
     return (
-        <div className={`
-        w-full  flex flex-col items-center mb-20 ${props.marginTop? `mt-${props.marginTop}`: 'mt-20'}
-        `}>
+        <div className={card}>
             <div className={`
                 flex flex-col items-center border-2 rounded-3xl py-10 px-10
-                dark:bg-gray-800 border-purple-700 max-w-300
+                dark:bg-gray-800 border-purple-700 max-w-320
                 bg-blue-50 mx-4
                 `}>
                     <span className={`
