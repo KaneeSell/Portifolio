@@ -12,12 +12,12 @@ export default function SobreMim(){
             <MenuLateral localAtivo="sobre-mim">
                 <Header titulo="Sobre Mim" subtitulo="Um pouco sobre quem eu sou e as tecnologias que uso."/>
                 <LayoutConteudo titulo="Minha Jornada & Meus Estudos" >
-                    <div className="flex flex-row flex-wrap gap-2">
+                    <div className="flex flex-row flex-wrap justify-center gap-2">
                         <div className={cards}>
                             <span className={tituloCard}>
                                 Minha Jornada
                             </span>
-                            <span className={`max-w-100 max-h-80 px-2 overflow-y-scroll dark:text-gray-100 font-medium scrollbar-personalizada`}>
+                            <span className={`max-w-100 max-h-80 px-2 overflow-y-auto dark:text-gray-100 font-medium scrollbar-personalizada`}>
                             Tenho 25 anos, nasci em Joinville (SC) e atualmente moro em Jaraguá do Sul (SC).
                             Meu passatempo é estudar e assistir a vídeos sobre tecnologia. Estou em busca de 
                             uma oportunidade para agregar minha experiência e conhecimento em tecnologia e 
@@ -37,7 +37,7 @@ export default function SobreMim(){
                             <span className={tituloCard}>
                                 Meus Estudos
                             </span>
-                            <span className="max-w-100 max-h-80 px-2 dark:text-gray-100 font-medium overflow-y-scroll scrollbar-personalizada">
+                            <span className="max-w-100 max-h-80 px-2 dark:text-gray-100 font-medium overflow-y-auto scrollbar-personalizada">
                             Tenho sólido conhecimento em projetos com JS, TS, HTML, CSS, SASS, Bootstrap, TailwindCSS, 
                             Node.js, Gulp, Webpack, jQuery, Electron.js, Git, GitHub, SQL, Vite, React.js e Next.js.
                             Atualmente, sigo estudando e, mesmo após concluir os cursos que desejo, não pretendo parar. 

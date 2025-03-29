@@ -15,7 +15,7 @@ export default function MenuLateral(props: MenuLateralProps){
     const navegar = useNavigate()
     return (
         <>
-            <div className="flex flex-row fixed">
+            <div className="flex flex-row fixed z-1">
                 {/* Menu Lateral Icons(Menu Lateral que mostra os icones) */}
                 <div className={`
                 dark:bg-gray-900 h-screen py-4
