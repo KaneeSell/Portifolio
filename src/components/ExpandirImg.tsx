@@ -54,15 +54,18 @@ export default function ExpandirImg(props: ExpandirImgProps){
                 initialScale={1}
                 initialPositionX={200}
                 initialPositionY={100}>
-                    {/* eslint-disable-next-line @typescript-eslint/no-unused-vars   */}
-                    {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
-                        <>
-                            <Controles />
-                            <TransformComponent>
-                                <img src={props.img} alt="Agenda 2.0"/>
-                            </TransformComponent>
-                        </>
-                )}
+                    {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
+                    {({ zoomIn, zoomOut, resetTransform, ..._rest }) => {
+                        void _rest;
+                        return (
+                            <>
+                                <Controles />
+                                <TransformComponent>
+                                    <img src={props.img} alt="Agenda 2.0"/>
+                                </TransformComponent>
+                            </>
+                        );
+                    }}
                 </TransformWrapper>
             </div>
         )
